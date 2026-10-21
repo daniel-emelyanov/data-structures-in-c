@@ -18,6 +18,24 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="avl.c" />
+    <ClCompile Include="bst.c" />
+    <ClCompile Include="hash.c" />
+    <ClCompile Include="heap.c" />
+    <ClCompile Include="linked_list.c" />
+    <ClCompile Include="queue.c" />
+    <ClCompile Include="stack\stack.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="avl.h" />
+    <ClInclude Include="bst.h" />
+    <ClInclude Include="hash.h" />
+    <ClInclude Include="heap.h" />
+    <ClInclude Include="linked_list.h" />
+    <ClInclude Include="queue.h" />
+    <ClInclude Include="stack\stack.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,9 +156,6 @@
       <EnableSegmentHeap>true</EnableSegmentHeap>
     </Manifest>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="test.c" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
